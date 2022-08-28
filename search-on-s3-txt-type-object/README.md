@@ -44,4 +44,4 @@ Download or clone this repository.
 git clone git@github.com:FAROUG/aws-lambda.git
 cd aws-lambda.git
 ```
-To invoke the lambda locally ensure that the default aws credentials is 
+In locally lambda invocation, ensure you have configured the default AWS credentials. The lambda will look for the default AWS credentials stored under the ~/.aws directory. 
