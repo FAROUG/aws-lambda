@@ -6,7 +6,7 @@ The project source includes function code and supporting resources:
 
 * `function` - A Python function.
 * template.yml - An AWS CloudFormation template that creates an application (later).
-* 1.run-lambda-locally.sh, 2.deploy-lamdbda.sh, etc. - Shell scripts that use the AWS CLI to deploy and manage the application.
+* 1-run-lambda-locally.sh, 2-deploy-lamdbda.sh, etc. - Shell scripts that use the AWS CLI to deploy and manage the application.
 
 Use the following instructions to deploy the sample application.
 ## Description
@@ -42,6 +42,11 @@ Download or clone this repository.
 
 ```
 git clone git@github.com:FAROUG/aws-lambda.git
-cd aws-lambda.git
+cd aws-lambda/search-on-s3-txt-type-object/
+```
+
+To run the lambda locally, run 1-run-lambda-locally.sh.
+```
+./1-run-lambda-locally.sh
 ```
 In locally lambda invocation, ensure you have configured the default AWS credentials. The lambda will look for the default AWS credentials stored under the ~/.aws directory. 
