@@ -8,13 +8,23 @@ as
  ```
  String b'the' The word number is approximately 7 Found In Line 13 in file name PROD-SYSTEM-MANAGER-DEPLOYMENT-BACK_END.txt bucket  mytestversioningbucket
  ```
-## how to use it
-The lambda code expect two variables (**bucket_name** and **string**) passed as environment variables and thier values
-***Locally** 
+will also evaluate if the bucket name entered is correct and will display all the existing buckets in the case the value of the bucket name was not found.
+
+The lambda code expect two variables (**bucket_name** and **string**) passed as environment variables and thier values.
+### How to search?? 
+## Locally
+by using the -e option when executing the python-lambda-local command 
 ```
+-e environment_variables.json
+as in python-lambda-local -f lambda_handler lambda_function.py event.json -e environment_variables.json --timeout 30000
+check the environment_variables.json file 
 ```
-***AWS lambda resource** 
+## AWS lambda resource** 
 ![alt text](https://github.com/FAROUG/aws-lambda/blob/feature/lambda_function_python_code/lambda-environment-configuration.png?raw=true)
+
+The project source includes function code and supporting resources:
+
+![alt text](https://github.com/FAROUG/aws-lambda/blob/feature/lambda_function_python_code/sample-lambda-python.png?raw=true)
 
 * `function` - A Python function.
 * template.yml - An AWS CloudFormation template that creates an application (later).
