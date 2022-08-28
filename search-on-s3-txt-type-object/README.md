@@ -45,10 +45,12 @@ git clone git@github.com:FAROUG/aws-lambda.git
 cd aws-lambda/search-on-s3-txt-type-object/
 ```
 
-To run the lambda locally, run 1-run-lambda-locally.sh.
+To install all the packages needed to run the code, run 1-run-lambda-locally.sh.
 ```
 ./1-run-lambda-locally.sh
-# To run the lambda locally 
+```
+To run the lambda locally 
+```
 python-lambda-local -f lambda_handler lambda_function.py event.json -e environment_variables.json --timeout 30000
 ```
 In locally lambda invocation, ensure you have configured the default AWS credentials. The lambda will look for the default AWS credentials stored under the ~/.aws directory. 
