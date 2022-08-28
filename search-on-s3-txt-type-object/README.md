@@ -1,5 +1,14 @@
 ## Search a word (substring) function on S3 (Python)
 
+The project source includes function code and supporting resources:
+
+![alt text](https://github.com/FAROUG/aws-lambda/blob/feature/lambda_function_python_code/sample-lambda-python.png?raw=true)
+
+* `function` - A Python function.
+* template.yml - An AWS CloudFormation template that creates an application (later).
+* 1.run-lambda-locally.sh, 2.deploy-lamdbda.sh, etc. - Shell scripts that use the AWS CLI to deploy and manage the application.
+
+Use the following instructions to deploy the sample application.
 ## Description
 
 This lambda is to search a word on all the txt objects within only one or all the s3 buckets.
@@ -22,16 +31,6 @@ check the environment_variables.json file
 ## AWS lambda resource
 ![alt text](https://github.com/FAROUG/aws-lambda/blob/feature/lambda_function_python_code/lambda-environment-configuration.png?raw=true)
 
-The project source includes function code and supporting resources:
-
-
-![alt text](https://github.com/FAROUG/aws-lambda/blob/feature/lambda_function_python_code/sample-lambda-python.png?raw=true)
-
-* `function` - A Python function.
-* template.yml - An AWS CloudFormation template that creates an application (later).
-* 1.run-lambda-locally.sh, 2.deploy-lamdbda.sh, etc. - Shell scripts that use the AWS CLI to deploy and manage the application.
-
-Use the following instructions to deploy the sample application.
 
 ## Requirements
 * Python (3.7, 3.8, 3.9, or 3.10)
