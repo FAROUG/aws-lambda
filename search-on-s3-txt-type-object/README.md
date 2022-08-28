@@ -19,7 +19,7 @@ by using the -e option when executing the python-lambda-local command
 as in python-lambda-local -f lambda_handler lambda_function.py event.json -e environment_variables.json --timeout 30000
 check the environment_variables.json file 
 ```
-## AWS lambda resource** 
+## AWS lambda resource
 ![alt text](https://github.com/FAROUG/aws-lambda/blob/feature/lambda_function_python_code/lambda-environment-configuration.png?raw=true)
 
 The project source includes function code and supporting resources:
