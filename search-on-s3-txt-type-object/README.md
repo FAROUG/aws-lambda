@@ -20,12 +20,12 @@ as in python-lambda-local -f lambda_handler lambda_function.py event.json -e env
 check the environment_variables.json file 
 ```
 ## AWS lambda resource
-![alt text](https://github.com/FAROUG/aws-lambda/blob/feature/lambda_function_python_code/lambda-environment-configuration.png?raw=true)
+![alt text](https://github.com/FAROUG/aws-lambda/search-on-s3-txt-type-object/blob/feature/lambda_function_python_code/lambda-environment-configuration.png?raw=true)
 
 The project source includes function code and supporting resources:
 
 
-![alt text](https://github.com/FAROUG/aws-lambda/blob/feature/lambda_function_python_code/sample-lambda-python.png?raw=true)
+![alt text](https://github.com/FAROUG/aws-lambda/search-on-s3-txt-type-object/blob/feature/lambda_function_python_code/sample-lambda-python.png?raw=true)
 
 * `function` - A Python function.
 * template.yml - An AWS CloudFormation template that creates an application (later).
