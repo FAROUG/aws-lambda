@@ -14,7 +14,7 @@ The lambda code expect two variables (**bucket_name** and **string**) passed as 
 ```
 ```
 ***AWS lambda resource** 
-![alt text](https://github.com/FAROUG/aws-lambda/blob/feature/lambda_function_python_code/image.jpg?raw=true)
+![alt text](https://github.com/FAROUG/aws-lambda/blob/feature/lambda_function_python_code/lambda-environment-configuration.png?raw=true)
 
 * `function` - A Python function.
 * template.yml - An AWS CloudFormation template that creates an application (later).
