@@ -24,6 +24,7 @@ check the environment_variables.json file
 
 The project source includes function code and supporting resources:
 
+
 ![alt text](https://github.com/FAROUG/aws-lambda/blob/feature/lambda_function_python_code/sample-lambda-python.png?raw=true)
 
 * `function` - A Python function.
