@@ -45,12 +45,23 @@ git clone git@github.com:FAROUG/aws-lambda.git
 cd aws-lambda/search-on-s3-txt-type-object/
 ```
 
-To install all the packages needed to run the code, run 1-run-lambda-locally.sh.
+### To install all the packages needed to run the code locally, run 1-run-lambda-locally.sh.
 ```
 ./1-run-lambda-locally.sh
 ```
-To run the lambda locally 
+and to locally invoke it 
 ```
 python-lambda-local -f lambda_handler lambda_function.py event.json -e environment_variables.json --timeout 30000
 ```
 In locally lambda invocation, ensure you have configured the default AWS credentials. The lambda will look for the default AWS credentials stored under the ~/.aws directory. 
+
+### Deploy The Python package on AWS Lambda
+To deploy this python package (< few MB) on AWS Lambda with external libraries (like smart_open, …), you must put all these libs in the lambda folder you want to deploy. Then zip all the files it contains and finally deploy the zip file.
+Let's pack the python and prepare it using the below script
+```
+2-deploy-lamdbda.sh
+```
+then let's deploy it using the AWS CLI, Assuming that you have properly created an AWS lambda in AWS lambda console with the name s3_lambda and configured s3_lambda lambda function to access to the s3 buckets using role and policy
+```
+aws lambda update-function-code --function-name s3_lambda --zip-file fileb://lambda.zip
+```
