@@ -42,7 +42,7 @@ Download or clone this repository.
 
 ```
 git clone git@github.com:FAROUG/aws-lambda.git
-cd aws-lambda/search-on-s3-txt-type-object/
+cd aws-lambda/search-on-s3-word-txt-type-object/
 ```
 
 ### To install all the packages needed to run the code locally, run 1-run-lambda-locally.sh.
