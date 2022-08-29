@@ -61,7 +61,7 @@ Let's pack the python and prepare it using the below script
 ```
 2-deploy-lamdbda.sh
 ```
-then let's deploy it using the AWS CLI, Assuming that you have properly created an AWS lambda in AWS lambda console with the name s3_lambda and configured s3_lambda lambda function to access to the s3 buckets using role and policy
+then let's deploy it using the AWS CLI, Assuming that you have properly created an AWS lambda in AWS lambda console with the name **s3_lambda** and configured s3_lambda lambda function to access to the s3 buckets using role and policy
 ```
 aws lambda update-function-code --function-name s3_lambda --zip-file fileb://lambda.zip
 ```
