@@ -48,6 +48,8 @@ cd aws-lambda/search-on-s3-txt-type-object/
 ### To install all the packages needed to run the code locally, run 1-run-lambda-locally.sh.
 ```
 ./1-run-lambda-locally.sh
+or 
+sh 1-run-lambda-locally.sh
 ```
 and to locally invoke it 
 ```
@@ -59,7 +61,9 @@ In locally lambda invocation, ensure you have configured the default AWS credent
 To deploy this python package (< few MB) on AWS Lambda with external libraries (like smart_open, …), you must put all these libs in the lambda folder you want to deploy. Then zip all the files it contains and finally deploy the zip file.
 Let's pack the python and prepare it using the below script
 ```
-2-deploy-lamdbda.sh
+./2-deploy-lamdbda.sh
+or
+sh 2-deploy-lamdbda.sh
 ```
 then let's deploy it using the AWS CLI, Assuming that you have properly created an AWS lambda in AWS lambda console with the name **s3_lambda** and configured s3_lambda lambda function to access to the s3 buckets using role and policy
 ```
