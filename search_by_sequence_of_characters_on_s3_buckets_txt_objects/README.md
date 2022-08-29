@@ -11,7 +11,7 @@ The project source includes function code and supporting resources:
 Use the following instructions to deploy the sample application.
 ## Description
 
-This lambda is to search a word on all the txt objects within only one or all the s3 buckets.
+This lambda is to search a sequence of characters (word or a sentence) on all the txt objects within only one or all the s3 buckets.
 and then will display all the occuance of that word, the line and in which object or bucket it founds.
 as 
  ```
