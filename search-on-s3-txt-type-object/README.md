@@ -19,7 +19,7 @@ as
  ```
 will also evaluate if the bucket name entered is correct and will display all the existing buckets in the case the value of the bucket name was not found.
 
-The lambda code expect two variables (**bucket_name** and **string**) passed as environment variables and thier values.
+The lambda code expect two variables (**bucket_name** and **sentence**) passed as environment variables and thier values.
 ### How to search?? 
 ## Locally
 by using the -e option when executing the python-lambda-local command 
