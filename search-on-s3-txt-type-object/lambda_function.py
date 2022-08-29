@@ -22,7 +22,7 @@ def getting_object(bucket_name):
                 line = line.decode("utf-8").lower()
                 line_index += 1
                 if sentence == "":
-                    print("please enter a word or a sentance")
+                    print("please enter a word or a sentence")
                     return            
                 if search(sentence, line):
                     print('Sentence', sentence, 'this sentence found in line',
