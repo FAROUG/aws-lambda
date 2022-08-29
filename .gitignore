@@ -4,3 +4,6 @@
 **/.idea
 **/lambda.zip
 **/lambda_function.cpython**
+lambda_venv
+venv
+__init__.py
