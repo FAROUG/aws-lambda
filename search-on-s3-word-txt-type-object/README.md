@@ -55,8 +55,8 @@ and to locally invoke it
 ```
 python-lambda-local -f lambda_handler lambda_function.py event.json -e environment_variables.json --timeout 30000
 ```
-In locally lambda invocation, ensure you have configured the default AWS credentials. The lambda will look for the default AWS credentials stored under the ~/.aws directory. 
-
+In locally lambda invocation, (Optionally) pass the values of AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to the environment_variables.json file, otherwise, it will look for the default AWS credentials stored under the ~/.aws directory. 
+check out [here](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/credentials.html) The order in which searches for credentials.
 ### Deploy The Python package on AWS Lambda
 To deploy this python package (< few MB) on AWS Lambda with external libraries (like smart_open, …), you must put all these libs in the lambda folder you want to deploy. Then zip all the files it contains and finally deploy the zip file.
 Let's pack the python and prepare it using the below script
