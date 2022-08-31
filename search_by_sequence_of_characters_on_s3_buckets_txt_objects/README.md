@@ -48,7 +48,9 @@ cd aws-lambda/search_by_sequence_of_characters_on_s3_buckets_txt_objects
 ### To install all the packages needed to run the code locally, run 1-run-lambda-locally.sh.
 ```
 ./1-run-lambda-locally.sh
-or 
+```
+Or Use
+```
 sh 1-run-lambda-locally.sh
 ```
 and to locally invoke it 

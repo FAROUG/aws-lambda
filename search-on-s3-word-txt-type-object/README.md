@@ -48,7 +48,9 @@ cd aws-lambda/search-on-s3-word-txt-type-object/
 ### To install all the packages needed to run the code locally, run 1-run-lambda-locally.sh.
 ```
 sh 1-run-lambda-locally.sh
-or
+```
+Or Use
+```
 ./1-run-lambda-locally.sh
 ```
 and to locally invoke it 
