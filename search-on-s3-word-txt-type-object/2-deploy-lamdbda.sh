@@ -1,5 +1,6 @@
 #!/bin/bash
 
+pip3 install virtualenv
 virtualenv lambda_venv
 source lambda_venv/bin/activate
 pip3 install smart_open
