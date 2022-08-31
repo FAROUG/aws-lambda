@@ -33,16 +33,16 @@ check the environment_variables.json file
 
 
 ## Requirements
-* Python (3.7, 3.8, 3.9, or 3.10)
+* Python (3.7, 3.8, 3.9, or 3.10) --> Downlad Python from [here](https://www.python.org/downloads/)
 * The Bash shell. For Linux and macOS, this is included by default. In Windows 10, you can install the Windows Subsystem for Linux to get a Windows-integrated version of Ubuntu and Bash.
-* The AWS CLI v1.17 or newer.
+* The AWS CLI v1.17 or newer --> Download AWS CLI from [here](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
 
 ## Setup
 Download or clone this repository.
 
 ```
-git clone git@github.com:FAROUG/aws-lambda.git
-cd aws-lambda/search-on-s3-txt-type-object/
+git clone https://github.com/FAROUG/aws-lambda.git
+cd aws-lambda/search_by_sequence_of_characters_on_s3_buckets_txt_objects
 ```
 
 ### To install all the packages needed to run the code locally, run 1-run-lambda-locally.sh.
