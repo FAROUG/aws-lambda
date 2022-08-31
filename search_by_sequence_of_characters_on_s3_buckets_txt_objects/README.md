@@ -64,7 +64,9 @@ To deploy this python package (< few MB) on AWS Lambda with external libraries (
 Let's pack the python and prepare it using the below script
 ```
 ./2-deploy-lamdbda.sh
-or
+```
+Or 
+```
 sh 2-deploy-lamdbda.sh
 ```
 then let's deploy it using the AWS CLI, Assuming that you have properly created an AWS lambda in AWS lambda console with the name **s3_lambda** and configured s3_lambda lambda function to access to the s3 buckets using role and policy
