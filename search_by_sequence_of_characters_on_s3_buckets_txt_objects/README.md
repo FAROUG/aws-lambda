@@ -49,7 +49,7 @@ cd aws-lambda/search_by_sequence_of_characters_on_s3_buckets_txt_objects
 ```
 ./1-run-lambda-locally.sh
 ```
-Or Use
+Or 
 ```
 sh 1-run-lambda-locally.sh
 ```
