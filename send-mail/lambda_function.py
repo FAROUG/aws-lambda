@@ -12,7 +12,7 @@ def grecaptcha_verify(request):
         print(captcha_rs)
         url = "https://www.google.com/recaptcha/api/siteverify"
         params = {
-            'secret': 'add asecret',
+            'secret': 'secret',
             'response': captcha_rs
         }
         verify_rs = requests.get(url, params=params, verify=True)
