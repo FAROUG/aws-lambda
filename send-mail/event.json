@@ -1,0 +1,44 @@
+{
+  "version":"2.0",
+  "routeKey":"POST /send-mail",
+  "rawPath":"/default/send-mail",
+  "rawQueryString":"",
+  "headers":{
+     "accept":"application/json",
+     "accept-encoding":"gzip, deflate, br",
+     "accept-language":"en-US,en;q=0.5",
+     "content-length":"672",
+     "content-type":"application/json",
+     "host":"quog76klk8.execute-api.us-east-1.amazonaws.com",
+     "origin":"http://d1lm5nt6jivq4x.cloudfront.net",
+     "referer":"http://d1lm5nt6jivq4x.cloudfront.net/",
+     "sec-fetch-dest":"empty",
+     "sec-fetch-mode":"cors",
+     "sec-fetch-site":"cross-site",
+     "user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/110.0",
+     "x-amzn-trace-id":"Root=1-64020ac9-0511d655657b718828491b5f",
+     "x-forwarded-for":"94.204.107.128",
+     "x-forwarded-port":"443",
+     "x-forwarded-proto":"https"
+  },
+  "requestContext":{
+     "accountId":"206283324397",
+     "apiId":"quog76klk8",
+     "domainName":"quog76klk8.execute-api.us-east-1.amazonaws.com",
+     "domainPrefix":"quog76klk8",
+     "http":{
+        "method":"POST",
+        "path":"/default/send-mail",
+        "protocol":"HTTP/1.1",
+        "sourceIp":"94.204.107.128",
+        "userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/110.0"
+     },
+     "requestId":"BNafkjKyoAMESCA=",
+     "routeKey":"POST /send-mail",
+     "stage":"default",
+     "time":"03/Mar/2023:14:57:13 +0000",
+     "timeEpoch":1677855433747
+  },
+  "body":"{\"email\":\"faroug@yopmail.comf\",\"subject\":\"fadfadsf\",\"message\":\"fadsf dsfds \",\"g-recaptcha-response\":\"03AFY_a8URL83jOVAwttxtTAJZHbCzTtPK1auoTFcp597iGmibb-phaa0qudBunLFeEe2V765vfwT3OCWNvBE7PU3V7xmaeXfMphutJB4erKmqKf2882tQ807qhJreU7mfNytrVDMyDF0wSmPSkV7-3-jKL0SHpdt3FZ0-1UALQ8kmToHzylHy4lrEZAmzCL6BWYPN5WJ3cnQ1vON6K0BZcUfB1o-xOjN0TER_B82O7oBkLL9i6s7pu8SIKZMh58ACRi2bJnMyX-MdCf3hvOmUPzMEh_FWW_cCRuWVqUJsLdnh7DHlOjM0xUWR2ge8y3VtO0v0mg3SOnZKSLnQC_Z6GQpc1otMcT5NeI_acXBnYpMQRnH5QRoZeHpbXRS4RIrcI5w2KnwH4O3QuBUaiqLsXdhspNXCx6cfUtQ3dNhAuObVOQONdobC-Wctg0CcUMAXSqxRxmrlMPnCEl8Vg6goWZzcr9_kDlJZ3w1s4oBvubLxKqhWqZSc5Zss5aMezOjBDRscJrsVVgtJdl0fkxwSt1lmbdRdM5UwyKx2WobFrKGcz23gd8zpi6o\"}",
+  "isBase64Encoded":false
+}
